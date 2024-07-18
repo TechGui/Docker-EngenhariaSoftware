@@ -33,6 +33,17 @@ O projeto foi desenvolvido para a atividade de Clean Code, onde foi implementado
 #### Docker Build Final
 <img width="440" alt="image" src="/public/dockerbuild.png">
 
+#### Dockerfile Backend
+<img width="440" alt="image" src="/public/dockerfilebackend.png">
+
+#### Dockerfile Frontend
+<img width="440" alt="image" src="/public/dockerfilefrontend.png">
+
+#### Docker-compose.yml
+<img width="440" alt="image" src="/public/dockercompose.png">
+
+
+
 Checklist:
 - [x] Meu código segue os padrões do repositório, como gitmoji e commits organizados e com mensagens adequadas
 - [x] Meu código segue os padrões deste projeto
