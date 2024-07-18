@@ -1,0 +1,13 @@
+@import '.././variaveis.css';
+
+.titulo {
+  display: flex;
+  background-color: var(--cor-fundo);
+  color: var(--cor-branca);
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 110px;
+  margin-right: 20px;
+}

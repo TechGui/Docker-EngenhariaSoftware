@@ -1,0 +1,104 @@
+@import '.././variaveis.css';
+
+.card-jogo {
+  display: flex;
+  border: 2px solid var(--cor-cinza-escuro);
+  border-radius: var(--border-radius-padrao);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.urlImagem {
+  width: 210px;
+  height: 240px;
+  margin-right: 14px;
+  border-radius: var(--border-radius-padrao);
+}
+
+h3 {
+  margin: 0;
+}
+
+.jogo_nome {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  margin-top: 4px;
+}
+
+.jogo_genero {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-small);
+}
+
+.jogo_ano {
+  font-size: var(--font-size-small);
+}
+
+.novidade {
+  width: 43px;
+  margin-left: var(--margin-botao);
+}
+
+button {
+  padding: var(--padding-botao);
+  margin: var(--margin-botao);
+  font-size: var(--font-size-botao);
+  color: var(--cor-branca);
+  background-color: var(--cor-verde);
+  font-weight: var(--font-weight-bold);
+  border: 1;
+  border-color: rgb(16, 56, 28);
+  border-radius: var(--border-radius-padrao);
+  cursor: pointer;
+}
+
+.comentario {
+  font-size: var(--font-size-small);
+  color: var(--cor-cinza);
+}
+
+.confirmacao {
+  color: var(--cor-azul-claro);
+  width: 80%;
+}
+
+.votos {
+  font-size: 14px;
+  color: var(--cor-cinza);
+}
+
+.botao_ver-emails {
+  background-color: var(--cor-botao-fundo);
+  box-shadow: var(--box-shadow);
+}
+
+.lista_descricao {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 6px;
+}
+
+.lista_descricao p {
+  margin: 6px 0;
+}
+
+.lista_descricao h2 {
+  font-size: 1.2rem;
+}
+
+.lista_descricao button {
+  width: 140px;
+}
+
+.votacao_detalhes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.excluirJogo {
+  width: 9px;
+  cursor: pointer;
+  align-self: flex-end;
+}

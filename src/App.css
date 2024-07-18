@@ -1,0 +1,69 @@
+@import './variaveis.css';
+
+:root {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo);
+  color: var(--cor-branca);
+}
+
+  .container {
+    max-width: 1580px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+.grid-container {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 32% 32% 32%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.lista-novo {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--border-radius-padrao);
+  padding: 12px;
+}
+
+.lista-novo h1 {
+  font-size: 28px;
+}
+
+.bt-novo {
+  margin: 10px;
+  height: 46px;
+  font-size: 14px;
+}
+
+.lista-novo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bt-novo, .bt-ranking {
+  margin-left: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+.ranking-container {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+}
+
+.ranking-item {
+  padding: 18px;
+  border-bottom: 1px solid #e6dddd;
+  color: rgb(0, 106, 7);
+  
+}
+.titulo-ranking{
+  color: #000000;
+}
