@@ -40,7 +40,7 @@ O projeto foi desenvolvido para a atividade de Clean Code, onde foi implementado
 <img width="440" alt="image" src="/public/dockerfilefrontend.png">
 
 #### Docker-compose.yml
-<img width="440" alt="image" src="/public/dockercompose.png">
+<img width="440" alt="image" src="/public/dockercomposer.png">
 
 
 
