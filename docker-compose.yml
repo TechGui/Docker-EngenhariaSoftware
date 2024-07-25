@@ -8,7 +8,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      DATABASE_URL: "postgresql://bercario_noite_owner:YAULD59eaGEq@ep-lively-lake-a5t9ijax.us-east-2.aws.neon.tech/gerenciadorjogos?sslmode=require"
+      DATABASE_URL: ""
     volumes:
       - ./backend:/app
     depends_on:
